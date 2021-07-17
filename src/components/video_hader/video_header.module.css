@@ -1,0 +1,44 @@
+.container {
+  background-color: black;
+  display: flex;
+  padding: 10px 5px;
+}
+
+.left {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.left li:first-child {
+  color: red;
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.left li {
+  color: white;
+}
+
+.right {
+  color: white;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.right__input {
+  width: 90%;
+  height: 100%;
+}
+
+.right button,
+.right div {
+  width: 5%;
+}
+
+.right > div {
+  background-color: gray;
+  display: inline-block;
+}
